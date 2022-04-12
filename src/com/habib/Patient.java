@@ -6,8 +6,12 @@ public class Patient {
     String address;
     String phoneNumber;
     String birthDate;
-    String insuranceType;
     float coPay;
+    String insuranceType;
+    enum insurance_Type{
+        PRIVATE,
+        GOVERNMENT;
+    }
     String patientType;
 
     public Patient(){
@@ -16,7 +20,7 @@ public class Patient {
         this.address = "";
         this.phoneNumber = "";
         this.birthDate = "";
-        this.insuranceType = "Private";
+        this.insuranceType = insurance_Type.PRIVATE.toString();
         this.coPay = 0;
         this.patientType = "Adult";
     }
@@ -29,6 +33,23 @@ public class Patient {
                    String insuranceType,
                    float coPay,
                    String patientType){
-        
+        this.lastName = lastName;
+        this.firstName = firstName;
+        this.address = address;
+        this.phoneNumber = phoneNumber;
+        this.birthDate = birthDate;
+        this.coPay = coPay;
+
+        if(insuranceType.equals("Private") || insuranceType.equals("Government"))
+            this.insuranceType = insuranceType;
+        else
+            this.insuranceType = "Private";
+
+        if(patientType.equals("Pediatric") || patientType.equals("Adult") || patientType.equals("Geriatric"))
+            this.patientType = patientType;
+        else
+            this.patientType = "Adult";
     }
+
+
 }
