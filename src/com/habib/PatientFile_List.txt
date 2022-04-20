@@ -1,0 +1,84 @@
+Admin ID: 00001
+First Name: Vlaho
+Last Name: Munira
+Address: 32 Brown Blvd
+Phone Number: 8002341623
+Co-Pay: 20.0
+Insurance Type: Government
+Patient Type: Adult
+Medical Information: 
+	MD Contact: Elfa Visnja
+	MD Phone: 8002341627
+	Allergy Type: Food
+	Illness Type: CHD
+
+Admin ID: 00001
+First Name: Velibor
+Last Name: Marloes
+Address: 76 Little Street
+Phone Number: 8002338912
+Co-Pay: 40.0
+Insurance Type: Government
+Patient Type: Pediatric
+Medical Information: 
+	MD Contact: Fato Sarvesh
+	MD Phone: 8004618623
+	Allergy Type: Medication
+	Illness Type: Diabetes
+
+Admin ID: 00002
+First Name: Zeus
+Last Name: Payam
+Address: 10 Needmore Ave
+Phone Number: 8023341623
+Co-Pay: 40.0
+Insurance Type: Private
+Patient Type: Adult
+Medical Information: 
+	MD Contact: Amy Payam
+	MD Phone: 8126741623
+	Allergy Type: None
+	Illness Type: None
+
+Admin ID: 00001
+First Name: Floro
+Last Name: Mirinda
+Address: 6517 Nearest Street
+Phone Number: 8126125423
+Co-Pay: 20.0
+Insurance Type: Government
+Patient Type: Senior
+Medical Information: 
+	MD Contact: Jone Mirinda
+	MD Phone: 8005667889
+	Allergy Type: Other
+	Illness Type: CHD
+
+Admin ID: 00002
+First Name: Roosevelt
+Last Name: Intan
+Address: 1001 Brown Ave
+Phone Number: 8126742233
+Co-Pay: 20.0
+Insurance Type: Government
+Patient Type: Senior
+Medical Information: 
+	MD Contact: Ellis Intan
+	MD Phone: 2039874567
+	Allergy Type: Medication
+	Illness Type: Diabetes
+
+Admin ID: 00001
+First Name: Safa
+Last Name: Javi
+Address: 6007 Research Ave
+Phone Number: 8259841623
+Co-Pay: 20.0
+Insurance Type: Private
+Patient Type: Adult
+Medical Information: 
+	MD Contact: N/A
+	MD Phone: N/A
+	Allergy Type: None
+	Illness Type: None
+
